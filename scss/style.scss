@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,600,700|Work+Sans:400,700,800");
+
+//variables
+$font-family:"Lato", sans-serif;
+$primary-color: #f44336;
+$secondary-color: #000;
+$primary-font-color:#818385;
+$secondary-font-color: #FFF;
+
+//mixins
+@mixin transition($transition) {
+  -webkit-transition: $transition;
+  transition: $transition;
+}
+@mixin transitiontotal($transitiontotal) {
+  -moz-transition: $transitiontotal;
+  -ms-transition: $transitiontotal;
+  -o-transition: $transitiontotal;
+}
+
+@mixin transform($transform) {
+  -webkit-transform: $transform;
+  transform: $transform;
+}
+
+@mixin transformtotal($transformtotal) {
+  -moz-transform: $transformtotal;
+  -ms-transform: $transformtotal;
+  -o-transform: $transformtotal;
+}
+
+@mixin transform-origin($transformorigin) {
+  transform-origin: center top 0;
+  -webkit-transform-origin: $transformorigin;
+  -moz-transform-origin: $transformorigin;
+  -ms-transform-origin: $transformorigin;
+  -o-transform-origin: $transformorigin;
+}
+
+@mixin  box-shadowtotal($box-shadowtotal) {
+  box-shadow: $box-shadowtotal;
+  -webkit-box-shadow: $box-shadowtotal;
+  -moz-box-shadow: $box-shadowtotal;
+  -ms-box-shadow: $box-shadowtotal;
+  -o-box-shadow: $box-shadowtotal;
+}
+
+
+//partial imports
+@import "partials/base";
+@import "partials/basetypography";
+@import "partials/buttons";
+@import "partials/color";
+@import "partials/nav";
+@import "partials/content";
+@import "partials/footer";
+@import "partials/header";
+
+

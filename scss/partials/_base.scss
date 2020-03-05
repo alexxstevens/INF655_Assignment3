@@ -1,0 +1,22 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: $font-family;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.166667px;
+  line-height: 1.7em;
+  color: $primary-font-color;
+}
+
+.section {
+  padding: 120px 0px;
+}
+
+.section-sm {
+  padding: 60px 0px;
+}
+
